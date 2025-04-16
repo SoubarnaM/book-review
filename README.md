@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Review: The Count of Monte Cristo</title>
+    <style>
+        /* Modern CSS Reset & Base Styles */
+        :root {
+            --primary: #3a506b;
+            --secondary: #5bc0be;
+            --accent: #e8c547;
+            --dark: #1c2541;
+            --light: #f8f9fa;
+            --text: #333;
+            --text-light: #666;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.7;
+            color: var(--text);
+            background-color: #fafafa;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header Styles */
+        header {
+            text-align: center;
+            margin: 2rem 0;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--secondary);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: var(--dark);
+            margin-bottom: 0.5rem;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: var(--primary);
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            color: var(--primary);
+            margin: 2rem 0 1rem;
+            border-left: 4px solid var(--accent);
+            padding-left: 10px;
+        }
+
+        h4 {
+            font-size: 1.3rem;
+            color: var(--dark);
+            margin: 1.5rem 0 0.5rem;
+        }
+
+        /* Section & Content Styles */
+        section {
+            margin-bottom: 2.5rem;
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1rem auto;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        p {
+            margin-bottom: 1rem;
+            color: var(--text-light);
+        }
+
+        /* Rating Styles */
+        #rating {
+            text-align: center;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+        }
+
+        #rating p:first-of-type {
+            font-size: 2rem;
+            color: var(--accent);
+            margin: 0.5rem 0;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding: 1.5rem;
+            background-color: var(--dark);
+            color: white;
+            border-radius: 8px;
+        }
+
+        footer p {
+            color: white;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.2rem;
+            }
+
+            section {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Book Review: The Count of Monte Cristo</h1>
+        <h2>by Alexandre Dumas</h2>
+    </header>
+
+    <main>
+        <!-- Unlabeled Intro Section -->
+        <section id="intro">
+            <img src="intro-image.png" alt="Book Cover of The Count of Monte Cristo" width="400">
+            <p>The Count of Monte Cristo (1844) by Alexandre Dumas is a timeless masterpiece of adventure, revenge, and redemption. Set in early 19th-century France, this epic novel follows the transformation of Edmond Dantès, a young sailor wrongfully imprisoned, who later reemerges as the enigmatic and wealthy Count of Monte Cristo to exact vengeance on those who destroyed his life. With its intricate plotting, rich character development, and themes of justice and forgiveness, the novel remains one of the greatest works of literature.</p>
+        </section>
+
+        <!-- Plot Summary -->
+        <section id="summary">
+            <h3>Plot Summary</h3>
+            <img src="plot-image.png" alt="Plot Illustration" width="400">
+            <p>The story begins with Edmond Dantès, a promising young man on the verge of happiness—he is about to be promoted to captain of his ship and marry his beloved Mercédès. However, his good fortune provokes jealousy in others. Three men—Fernand Mondego (who desires Mercédès), Danglars (a resentful shipmate), and Villefort (a corrupt prosecutor)—conspire to frame Dantès for treason. He is unjustly imprisoned in the Château d’If, where he spends fourteen years in isolation.</p>
+            <p>During his imprisonment, Dantès befriends Abbé Faria, an elderly prisoner who educates him in languages, science, and philosophy. Before dying, Faria reveals the location of a hidden treasure on the island of Monte Cristo. After a daring escape, Dantès retrieves the treasure and reinvents himself as the mysterious and wealthy Count of Monte Cristo.</p>
+            <p>Under various aliases, the Count infiltrates Parisian high society, systematically destroying the lives of those who betrayed him. His revenge is methodical and merciless: he ruins Danglars financially, exposes Fernand’s past crimes (destroying his reputation), and manipulates Villefort’s family into tragedy. Yet, as his vengeance unfolds, the Count grapples with the moral consequences of his actions, especially when innocent lives are affected.</p>
+        </section>
+
+        <!-- Themes & Analysis Section -->
+        <section id="themes-analysis">
+            <h3>Themes & Analysis</h3>
+            <img src="themes-image.png" alt="Themes Representation" width="400">
+
+            <h4>1. Revenge vs. Justice</h4>
+            <p>The central theme of The Count of Monte Cristo is the nature of revenge. Dantès initially believes his vengeance is divine justice, but as he executes his plans, he questions whether he has become as cruel as his enemies. The novel explores whether true justice exists or if revenge only perpetuates suffering.</p>
+
+            <h4>2. Transformation and Identity</h4>
+            <p>Dantès’ evolution from a naïve young man to a vengeful aristocrat is compelling. His multiple identities—the sailor, the prisoner, the Count—reflect his psychological journey. The novel suggests that trauma and betrayal can fundamentally alter a person, for better or worse.</p>
+
+            <h4>3. Forgiveness and Redemption</h4>
+            <p>Despite his thirst for revenge, the Count encounters characters who challenge his beliefs. Mercédès, still loving him despite his transformation, and Maximilien Morrel, the son of Dantès’ former benefactor, represent innocence and forgiveness. The novel ultimately suggests that mercy and love may be more powerful than vengeance.</p>
+
+            <h4>4. Strengths and Weaknesses</h4>
+            <p>Dumas’ storytelling is gripping, filled with intricate schemes, dramatic revelations, and rich historical detail. The novel’s length (over 1,000 pages in some editions) allows for deep character exploration, though some subplots (such as the Roman bandit Luigi Vampa) feel tangential.</p>
+
+            <!-- Separate Final Paragraph -->
+            <p>The pacing varies—while the prison escape and revenge plots are thrilling, some sections (like the lengthy Parisian social maneuvers) may test modern readers’ patience. However, the payoff is worth it, as the final confrontations are deeply satisfying.</p>
+        </section>
+
+        <!-- Conclusion -->
+        <section id="conclusion">
+            <h3>Conclusion</h3>
+            <img src="conclusion-image.png" alt="Conclusion Artwork" width="400">
+            <p>The Count of Monte Cristo is more than a tale of revenge; it is a meditation on justice, power, and human nature. Dumas crafts a story that is both thrilling and philosophical, with a protagonist who is both hero and antihero. While the novel’s length and occasional digressions may be challenging, its emotional depth and narrative brilliance make it a must-read.</p>
+            <p>For those who enjoy adventure, drama, and moral complexity, The Count of Monte Cristo remains an unparalleled classic. It is a story that lingers in the mind, asking profound questions about the cost of vengeance and the possibility of redemption.</p>
+        </section>
+
+        <!-- Rating Section -->
+        <section id="rating">
+            <h3>Rating</h3>
+            <p>⭐⭐⭐⭐☆ (4/5)</p>
+            <p>We rated this book 4 out of 5 based on its storytelling, themes, and overall impact.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Reviewed by:</p>
+        <p>
+            2402048 - Sarthak Deb<br>
+            2402064 - Soubarna Mukherjee<br>
+            2402025 - Kushal Mazumdar<br>
+            2402042 - Pushparghya Das
+        </p>
+    </footer>
+</body>
+</html>
